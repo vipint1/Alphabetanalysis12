@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbit">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+        <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+        <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    </head>
+
+    <body>
+        <div class="bar">  
+           <img src="images/alphabetanlogo.png" class="logo">  
+        </div>
+
+        <div class="intro">
+            <p class="introcontent">
+               So you must be familiar with Google right? But have you ever heard of Alphabet Inc.? 
+               You might be thinking, what's that? It's a company that Google created in 2015 to act 
+               as a holding company for Google and all its other products and subsidiaries. 
+               But let's step back a bit. Google itself wasn't always Google we know now,
+               it started as a research project by two PhD students, Larry Page and Sergey Brin,
+               at Stanford University in the late 90s. By the early 2000s, Google was the world's most popular
+               search engine. However, as the company grew, it expanded into other areas such as mobile operating
+               systems, web browsers, cloud computing, and many more. That’s when Alphabet came into the picture,
+               creating a structure for all these different ventures to fall under one umbrella. Alphabet prides 
+               itself on being innovative and continuously working towards making the world a better place through
+               technology and creativeness. So what are Alphabet Inc.'s biggest values? For starters, they believe 
+               in putting the end-user first, which is why user experience is such a significant factor in the development 
+               of their products. Moreover, innovation is embedded deep in the philosophy of Alphabet, and they encourage 
+               their employees to come up with innovative ideas to solve world problems.
+
+            </p>
+
+            <img src="images/alphaicon.png" class="alphaicon">
+           
+            <py-config>
+               packages = ["matplotlib"]
+            </py-config>
+
+        </div>
+        <div class="result">
+            <p class="rheading">ACCORDING TO THE SURVEY CONDUCTED</p>
+            <p class="rhdpart">BY US</p>
+            <p class="hover">Hover upon each section to see their respective graph</p>
+
+            <div class="r12">
+             <div class="result1">
+                 <div>
+                     <p class = "Percentage">79&#37;</p>
+                     <p class = "ques">Didn't knew what is Alphabet Inc&#46;</p> 
+                  </div>
+             </div>
+
+             <div  class="graph1" > 
+                <py-script output="graph1">
+                     import matplotlib
+                     import matplotlib.pyplot as plt
+                     a = ['Yes', 'No', 'Came to know recently']
+                     b = [11, 63, 6]
+                     plt.figure(figsize=(5,2))
+                     plt.bar(a, b)
+                     plt.xlabel('Categories')
+                     plt.ylabel('Values')
+                     plt.title('Do u know what Alphabet.inc is ?')
+                     display(plt)
+                </py-script>
+             </div>
+           
+
+
+             <div class="result2">
+                  <div>
+                     <p class = "Percentage">91&#37;</p>
+                     <p class = "ques">Didn't knew the working environmet at Alphabet Inc&#46;</p>
+                  </div>  
+             </div>
+
+               <div class="graph2">
+                  <py-script output="graph2">
+                     import matplotlib
+                     import matplotlib.pyplot as plt
+                     a = ['Yes', 'No']
+                     b = [7, 73]
+                     plt.figure(figsize=(5,2))
+                     plt.bar(a, b)
+                     plt.xlabel('Categories')
+                     plt.ylabel('Values')
+                     plt.title('Are you aware about Alphabet.Inc working environment ?')
+                     display(plt)
+                  </py-script>
+               </div>
+                
+            </div>
+
+           <div class="r34">
+             <div class="result3">
+                 <div>
+                   <p class = "Percentage">96&#37;</p>
+                   <p class = "ques">Didn't knew the HR practices at Alphabet Inc&#46;</p>
+                 </div>
+             </div>
+
+             <div  class="graph3" >
+                  <py-script output="graph3">
+                     import matplotlib
+                     import matplotlib.pyplot as plt
+                     a = ['Yes', 'No']
+                     b = [3, 77]
+                     plt.figure(figsize=(5,2))
+                     plt.bar(a, b)
+                     plt.xlabel('Categories')
+                     plt.ylabel('Values')
+                     plt.title('Are you aware about Alphabet.Inc HR practices ?')
+                     display(plt)
+                  
+                  </py-script>
+             </div>
+ 
+
+             <div class="result4">
+                 <div>
+                   <p class = "Percentage">92&#37;</p>
+                   <p class = "ques">Didn't knew the reason behind recent lay-offs in Alphabet Inc&#46;</p>  
+                 </div>
+             </div>
+
+               <div  class="graph4" >
+                  <py-script output="graph4">
+                     import matplotlib
+                     import matplotlib.pyplot as plt
+                     a = ['Yes', 'No']
+                     b = [6, 74]
+                     plt.figure(figsize=(5,2))
+                     plt.bar(a, b)
+                     plt.xlabel('Categories')
+                     plt.ylabel('Values')
+                     plt.title('Do you know the reason behind recent layoffs in Alphabet?')
+                     display(plt)
+               </py-script>
+               </div>
+ 
+            </div>
+        </div>
+
+        <div class="menu">
+            <p class="mheading">EXPLORE BELOW!!</p>
+            <a href="About.html" target="_self">
+               <div class="block">
+
+                  <p class="blockheading">ABOUT</p>
+
+               </div>
+            </a>
+
+            <a href="subs.html" target="_self">
+                <div class="block">
+ 
+                   <p class="blockheading">SUBSADIRIES</p>
+ 
+                </div>
+            </a>
+
+
+             <a href="hr.html" target="_self">
+                <div class="block">
+ 
+                   <p class="blockheading">HR PRACTICES</p>
+ 
+                </div>
+             </a>
+
+             <a href="wc.html" target="_self">
+                <div class="block">
+ 
+                   <p class="blockheading">WORKING CONDITIONS</p>
+ 
+                </div>
+             </a>
+
+             <a href="layoff.html" target="_self">
+                <div class="block">
+ 
+                   <p class="blockheading">LAYOFFS</p>
+ 
+                </div>
+             </a>
+
+               <a href="growth.html" target="_self">
+                  <div class="block">
+
+                     <p class="blockheading">COVID-ERA REVENUE GROWTH</p>
+
+                  </div>
+               </a>
+
+        </div>
+
+
+    </body>
+    
+</html>

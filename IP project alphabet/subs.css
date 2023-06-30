@@ -1,0 +1,130 @@
+p{
+    color:white;
+}
+.bp{
+    background-image: url("images/subsbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  
+
+}
+
+.heading{
+    font-family: "Audiowide", sans-serif;
+    height:70px;
+    width:1500px;
+    border-radius: 20px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size:40px;
+    position:relative;
+}
+
+.google{
+
+  
+    height:200px;
+    display:inline-block;
+    margin-left:80px;
+    margin-top:300px;
+    vertical-align: top;
+
+}
+
+.apsh{
+
+    color: white;
+    display: inline-block;
+    vertical-align:top;
+    margin-left:500px;
+    margin-top:70px;
+    text-align: center;
+    font-size:35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.apsc{
+
+    color: white;
+    display: inline-block;
+    font-size:26px;
+    width:1000px;
+    height:1300px;
+    margin-top:80px;
+    margin-left:50px;
+    font-family: "Abel","Arial Narrow";
+
+}
+
+.aps{
+    border:solid;
+    border-color:white;
+    height:900px;
+    border-radius:35px;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+.opsh{
+
+    color: white;
+    display: inline-block;
+    vertical-align:top;
+    margin-left:500px;
+    margin-top:70px;
+    text-align: center;
+    font-size:35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.opsc{
+
+    color: white;
+    display: inline-block;
+    font-size:26px;
+    width:1300px;
+    margin-top:60px;
+    margin-bottom:0px;
+    margin-left:50px;
+    font-family: "Abel","Arial Narrow";
+
+}
+
+.ops{
+    border:solid;
+    border-color:white;
+    height:600px;
+    border-radius:35px;
+    margin-top:10px;
+    background-color: rgba(0, 0, 0, 0.541);
+    margin-bottom:20px;
+}
+
+
+.flowchart{
+    border:solid;
+    border-top-color: aquamarine;
+    border-bottom-color: lawngreen;
+    border-right-color: darkorchid;
+    border-left-color:gold;
+    border-width:5px;
+    border-radius: 30px;
+    display:inline-block;
+    margin-top:10px;
+
+
+}
+
+.flowchartinf{
+    display:inline-block;
+    vertical-align: top;
+    font-size:30px;
+    width:20px;
+    margin-left:50px;
+    margin-top:200px;
+
+}

@@ -1,0 +1,53 @@
+.bp{
+    background-image: url("images/growthbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+  
+}
+
+.heading{
+    font-family: "Audiowide", sans-serif;
+    height:70px;
+    width:1500px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size:40px;
+    position:relative;
+    margin-top:15px;
+}
+
+.div{
+    border:solid;
+    border-color: white;
+    border-radius:15px;
+    width:1400px;
+    height:600px;
+    padding:20px;
+    margin-top:20px;
+    margin-left:25px
+    
+}
+.subheading{
+    font-family: "Audiowide",sans-serif;
+    height:60px;
+    width:1000px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size:24px;
+    position:relative;
+    margin-top:15px;
+    margin-left:180px;
+}
+
+
+
+
+.content{
+    color:white;
+    font-size:22px;
+    font-family:"Heebo";
+}

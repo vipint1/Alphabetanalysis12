@@ -1,0 +1,63 @@
+
+html { 
+    background: url("images/bgloading.jpg") no-repeat center center fixed; 
+    background-size: cover;
+}
+.loading{
+    height:400px;
+    width:400px;
+    background-color: rgba(0, 0, 0, 0.603);
+    border-radius:25px;
+    margin-left:560px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    color:white;
+    display: inline-block;
+    margin-top:90px;
+
+    
+}
+.loadtext{
+    color:white;
+    text-align: center;
+    font-size:20px;
+
+}
+.aalogo{
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    vertical-align:center;
+    margin-left:55px;
+    
+    
+}
+
+.progress{
+    position: relative;
+    height: 10px;
+    width: 200px;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    margin-left:90px;
+
+}
+.progress .color{
+    position: absolute;
+    background-color: #57fc88;
+    width: 0px;
+    height: 10px;
+    border-radius: 15px;
+    animation: progres 4s linear;    
+}
+@keyframes progres{
+    0%{
+      width: 0%;
+    }
+   
+    100%{
+        width: 100%;
+    }
+};

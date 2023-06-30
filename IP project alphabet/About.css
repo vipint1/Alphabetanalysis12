@@ -1,0 +1,257 @@
+
+ a:link {
+    text-decoration: none;
+}
+a:hover {
+    color:black;
+}
+
+.bp{
+    background-image:url("images/abtbgimg.png");
+    width:0px;
+    height:0px;
+    background-attachment: fixed;
+}
+
+
+
+.alphadiv{
+    background-color: rgb(4, 167, 167);
+    width:1500px;
+    height:600px;
+    display: inline-block;
+    padding-top:50px;
+    color:rgb(255, 255, 255);
+    border-radius:50px;
+    margin-left:2px;
+    position:relative;
+    vertical-align: top;
+    margin-top:15px;
+    margin-bottom: 15px;
+    
+    
+}
+
+.cof1div{
+    background-color: rgb(192, 127, 31);
+    width:1500px;
+    height:600px;
+    display: inline-block;
+    padding-top:50px;
+    color:rgb(255, 255, 255);
+    border-radius:50px;
+    margin-left:2px;
+    position:relative;
+    vertical-align: top;
+    
+    
+}
+
+.cof2div{
+    background-color: rgb(3, 194, 137);
+    width:1500px;
+    height:600px;
+    display: inline-block;
+    padding-top:50px;
+    color:rgb(255, 255, 255);
+    border-radius:50px;
+    margin-left:2px;
+    position:relative;
+    vertical-align: top;
+    margin-top:15px;
+    
+    
+}
+
+.ceodiv{
+    background-color: rgb(140, 94, 201);
+    width:1500px;
+    height:600px;
+    display: inline-block;
+    padding-top:50px;
+    color:rgb(255, 255, 255);
+    border-radius:50px;
+    margin-left:2px;
+    position:relative;
+    vertical-align: top;
+    margin-top:15px;
+    margin-bottom:20px;
+    
+    
+}
+.apheading{
+    color:rgb(255, 255, 255);
+    margin-left: 50px;
+    font-family: "monospace","Verdana";
+    font-size:30px;
+    display:block;
+    margin-bottom:0px;
+}
+
+.cof{
+    display:inline-block;
+    vertical-align:top ;
+    margin-left:50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+
+.head-rect{
+    font-family: "Audiowide", sans-serif;
+    height:70px;
+    width:1500px;
+    border-radius: 20px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size:40px;
+    position:relative;
+}
+
+#aboutimg{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    display: inline-block;
+    margin-left:150px;
+    margin-top:15px;
+    border-radius: 20px;
+    object-position:center;
+    transition:0.15s;
+    
+}
+
+#aboutimg:hover{
+   
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top:15px;
+    border-radius: 20px;
+    object-position:right;
+}
+
+#ceoimg{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    display: inline-block;
+    margin-left:150px;
+    margin-top:15px;
+    border-radius: 20px;
+    object-position:center;
+    transition:0.15s;
+    
+}
+
+#ceoimg:hover{
+   
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    display: inline-block;
+    margin-left: 150px;
+    border-radius: 20px;
+    margin-top:15px;
+    margin-right:30px;
+    object-position:right;
+}
+
+.larrycontent{
+    width:900px;
+    margin-left:50px;
+    margin-top:20px;
+    font-size:23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+   
+}
+
+.alphacontent{
+    width:900px;
+    margin-left:50px;
+    margin-top:20px;
+    font-size:23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+   
+}
+
+.sergeycontent{
+    width:900px;
+    margin-left:50px;
+    font-size:23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+   
+}
+
+#insta{
+    width:22px;
+    height:22px;
+    margin-left:950px;
+    margin-right:10px;
+    vertical-align:top;
+    text-decoration: none;
+    
+ 
+}
+
+#wiki{
+    width:25px;
+    height:25px;
+    margin-left:950px;
+    margin-right:10px;
+    vertical-align:top;
+    text-decoration: none;
+ 
+}
+
+#youtube{
+    width:28px;
+    height:20px;
+    margin-left:70px;
+    margin-right:10px;
+    vertical-align:top;
+    text-decoration: none;
+
+}
+
+#linkedin{
+    width:23px;
+    height:23px;
+    margin-left:70px;
+    margin-right:10px;
+    vertical-align:top;
+    text-decoration: none;
+}
+
+#web{
+    width:23px;
+    height:23px;
+    margin-left:560px;
+    margin-right:10px;
+    vertical-align:top;
+    text-decoration: none;
+}
+
+#twitter{
+    width:28px;
+    height:20px;
+    margin-left:70px;
+    margin-right:10px;
+    vertical-align:top;
+    text-decoration: none;
+   
+
+}
+
+.handle{
+    color:white;
+    font-size:20px;
+    display: inline;
+    vertical-align: middle;
+}

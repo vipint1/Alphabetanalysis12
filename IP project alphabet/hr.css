@@ -1,0 +1,134 @@
+p{
+    color: white;
+}
+.bp{
+    background-image: url("images/hrbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  
+}
+
+.heading{
+    font-family: "Audiowide", sans-serif;
+    height:70px;
+    width:1500px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size:40px;
+    position:relative;
+    margin-top:15px;
+}
+
+.otherparts{
+    color:white;
+    font-family: "Belanosima","Lucida Sans";
+    display:inline-block;
+    margin:5px;
+    font-size:22px;
+
+}
+.part1{
+    color: mediumspringgreen;
+    font-family: "Belanosima","Lucida Sans";
+    display:inline-block;
+    margin:5px;
+    font-size:22px;
+}
+
+.part2{
+    color: cyan;
+    font-family: "Belanosima","Lucida Sans";
+    display:inline-block;
+    margin:5px;
+    font-size:22px;
+}
+
+.part3{
+    color: fuchsia;
+    font-family: "Belanosima","Lucida Sans";
+    display:inline-block;
+    margin:5px;
+    font-size:22px;
+}
+
+.part4{
+    color: orange;
+    font-family: "Belanosima","Lucida Sans";
+    display:inline-block;
+    margin:5px;
+    font-size:22px;
+}
+
+.part5{
+    color:red;
+    font-family: "Belanosima","Lucida Sans";
+    display:inline-block;
+    margin:5px;
+    font-size:22px;
+}
+
+.part6{
+    color:red;
+    font-family: "Belanosima","Lucida Sans";
+    display:inline-block;
+    margin:5px;
+    font-size:22px;
+}
+
+.part7{
+    color: yellow;
+    font-family: "Belanosima","Lucida Sans";
+    display:inline-block;
+    margin:5px;
+    font-size:22px;
+}
+
+.part8{
+    color: pink;
+    font-family: "Belanosima","Lucida Sans";
+    display:inline-block;
+    margin:5px;
+    font-size:22px;
+}
+
+.part9{
+    color: rgb(21, 253, 203);
+    font-family: "Belanosima","Lucida Sans";
+    display:inline-block;
+    margin:5px;
+    font-size:22px;
+}
+
+.part10{
+    color: rgb(96, 228, 35);
+    font-family: "Belanosima","Lucida Sans";
+    display:inline-block;
+    margin:5px;
+    font-size:22px;
+}
+
+.part11{
+    color: rgb(255, 174, 0);
+    font-family: "Belanosima","Lucida Sans";
+    display:inline-block;
+    margin:5px;
+    font-size:22px;
+}
+
+.hrdiv{
+    border:solid;
+    border-color:white;
+    border-width:2px;
+    padding:20px;
+    margin-left:180px;
+    margin-top:10px;
+    width:1100px;
+    height:500px;
+    background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 10px;
+
+}
+
